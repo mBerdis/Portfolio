@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maroš Berdis | Game Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Maroš Berdis</h1>
+        <p class="hero-copy">
+          Creative game developer blending code, art, and immersive experiences into polished playable worlds.
+        </p>
+        <div class="hero-meta">
+          <span>Unreal | C++ | Blueprints | Gameplay Systems | Procedural Tools</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section intro">
+        <div class="section-header">
+          <h2>Game Development Projects</h2>
+          <p>Three featured solo projects that highlight design, gameplay, and technical polish.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media__slides">
+                <div class="project-slide active">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/CapsuleArt.png" alt="DeathDenied capsule art" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/DeathDenied_snowForest.png" alt="DeathDenied snow forest screenshot" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/DeathDenied_sword_slash.png" alt="DeathDenied sword slash screenshot" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/DeathDenied_wall_kick.png" alt="DeathDenied wall kick screenshot" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/Crossbow1.png" alt="DeathDenied crossbow screenshot" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/DeathDenied/DeathDenied_blessings.png" alt="DeathDenied blessings screenshot" />
+                </div>
+              </div>
+              <button class="slide-control prev" aria-label="Previous slide">‹</button>
+              <button class="slide-control next" aria-label="Next slide">›</button>
+              <div class="slide-dots">
+                <button class="dot active" aria-label="Slide 1"></button>
+                <button class="dot" aria-label="Slide 2"></button>
+                <button class="dot" aria-label="Slide 3"></button>
+                <button class="dot" aria-label="Slide 4"></button>
+                <button class="dot" aria-label="Slide 5"></button>
+                <button class="dot" aria-label="Slide 6"></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-description">
+                <h3>Death Denied <span class="project-tag">Top-Down Shooter</span> <span class="project-tag">2025-2026</span></h3>
+                <p>
+                  Death Denied is my first commercial game. It was made in Unreal Engine 5, utilizing its newest tools but balancing it with optimization techniques for the smoothest experience possible.
+                </p>
+              </div>
+              <div class="project-bottom">
+                <div class="project-notable">
+                  <h4>Notable things I worked on</h4>
+                  <ul>
+                    <li>Game design, mechanics and feel</li>
+                    <li>Level building tools</li>
+                    <li>Level design + lighting optimization</li>
+                  </ul>
+                </div>
+                <div class="project-links">
+                  <h4>Links</h4>
+                  <ul>
+                    <li><a href="https://store.steampowered.com/app/4386360/Death_Denied/" target="_blank" rel="noopener">Steam Page</a></li>
+                    <li><a href="https://youtu.be/GdwVk86KXkg" target="_blank" rel="noopener">IGN's GameTrailer Reveal</a></li>
+                    <li><a href="https://jiribigas.substack.com/p/nova-slovenska-akce-death-denied" target="_blank" rel="noopener">Article</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media__slides">
+                <div class="project-slide active">
+                  <img class="project-slide__image" src="resources/img/CaveGen/0.png" alt="CaveGen screenshot 1" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/CaveGen/1.png" alt="CaveGen screenshot 2" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/CaveGen/2.png" alt="CaveGen screenshot 3" />
+                </div>
+                <div class="project-slide">
+                  <img class="project-slide__image" src="resources/img/CaveGen/4.png" alt="CaveGen screenshot 4" />
+                </div>
+              </div>
+              <button class="slide-control prev" aria-label="Previous slide">‹</button>
+              <button class="slide-control next" aria-label="Next slide">›</button>
+              <div class="slide-dots">
+                <button class="dot active" aria-label="Slide 1"></button>
+                <button class="dot" aria-label="Slide 2"></button>
+                <button class="dot" aria-label="Slide 3"></button>
+                <button class="dot" aria-label="Slide 4"></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-description">
+                <h3>Procedural Cave Generator <span class="project-tag">Plugin</span> <span class="project-tag">2024-2025</span></h3>
+                <p>
+                    Unreal Engine 5 tool for procedurally generating destructible infinite cave worlds. 
+                    I worked on this plugin as my bachelor's thesis project.
+                </p>
+              </div>
+              <div class="project-bottom">
+                <div class="project-notable">
+                  <h4>Notable things I worked on:</h4>
+                  <ul>
+                    <li>Procedural generation algorithms</li>
+                    <li>Plugin architecture and integration</li>
+                  </ul>
+                </div>
+                <div class="project-links">
+                  <h4>Links</h4>
+                  <ul>
+                    <li><a href="https://www.fab.com/listings/67e67da4-d967-4da9-885a-e8283fc53834" target="_blank" rel="noopener">Marketplace Page</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLj2dbvm7c8nQgg-3mlNehoshoBhAee17_&si=p9j8LeHQaVBiNP-m" target="_blank" rel="noopener">Demo Video</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media__slides">
+                <div class="project-slide active">
+                  <img class="project-slide__image" src="resources/img/BleedingColor/BleedingColor.png" alt="Bleeding Color screenshot 1" />
+                </div>
+              </div>
+              <button class="slide-control prev" aria-label="Previous slide">‹</button>
+              <button class="slide-control next" aria-label="Next slide">›</button>
+              <div class="slide-dots">
+                <button class="dot active" aria-label="Slide 1"></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-description">
+                <h3>Bleeding Color <span class="project-tag">Third Person Shooter</span> <span class="project-tag">2024</span></h3>
+                <p>
+                  Love letter to Max Payne. 
+                  Third-person shooter with a focus on tight gunplay, stylish action, and a moody atmosphere.
+                  Due to overscope, the project was left at the prototype stage.
+                </p>
+              </div>
+              <div class="project-bottom">
+                <div class="project-notable">
+                  <h4>Notable things I worked on:</h4>
+                  <ul>
+                    <li>Game design, mechanics and feel</li>
+                    <li>Level design</li>
+                  </ul>
+                </div>
+                <div class="project-links">
+                  <h4>Links</h4>
+                  <ul>
+                    <li><a href="https://youtu.be/893vCbWHAyI" target="_blank" rel="noopener">Prototype Demo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section">
+        <div class="contact-card">
+          <h2>Contact</h2>
+          <p>Write me a mail at:</p>
+          <a href="mailto:work.mberdis@gmail.com">work.mberdis@gmail.com</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="image-zoom-overlay" aria-hidden="true">
+    <div class="image-zoom-content">
+      <button class="image-zoom-close" aria-label="Close image preview">×</button>
+      <img class="image-zoom-img" src="" alt="" />
+    </div>
+  </div>
+  <script>
+    const overlay = document.querySelector('.image-zoom-overlay');
+    const overlayImage = document.querySelector('.image-zoom-img');
+    const overlayClose = document.querySelector('.image-zoom-close');
+
+    const closeZoom = () => {
+      overlay.classList.remove('open');
+      overlay.setAttribute('aria-hidden', 'true');
+      overlayImage.src = '';
+      overlayImage.alt = '';
+    };
+
+    overlayClose.addEventListener('click', closeZoom);
+    overlay.addEventListener('click', event => {
+      if (event.target === overlay) closeZoom();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && overlay.classList.contains('open')) {
+        closeZoom();
+      }
+    });
+
+    document.querySelectorAll('.project-card').forEach(card => {
+      const slides = Array.from(card.querySelectorAll('.project-slide'));
+      const dots = Array.from(card.querySelectorAll('.dot'));
+      const nextButton = card.querySelector('.next');
+      const prevButton = card.querySelector('.prev');
+      const images = Array.from(card.querySelectorAll('.project-slide__image[src]'));
+      let currentIndex = 0;
+
+      const showSlide = index => {
+        const normalized = (index + slides.length) % slides.length;
+        slides.forEach((slide, i) => slide.classList.toggle('active', i === normalized));
+        dots.forEach((dot, i) => dot.classList.toggle('active', i === normalized));
+        currentIndex = normalized;
+      };
+
+      nextButton.addEventListener('click', () => showSlide(currentIndex + 1));
+      prevButton.addEventListener('click', () => showSlide(currentIndex - 1));
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => showSlide(index));
+      });
+
+      images.forEach(image => {
+        image.addEventListener('click', () => {
+          overlayImage.src = image.src;
+          overlayImage.alt = image.alt || 'Project screenshot';
+          overlay.classList.add('open');
+          overlay.setAttribute('aria-hidden', 'false');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
